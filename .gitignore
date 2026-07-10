@@ -1,0 +1,44 @@
+# =========== Model Weights ===========
+*.pth
+*.pkl
+*.bin
+*.onnx
+*.pt
+!yolo11n-seg.pt
+
+# =========== Python ===========
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+*.egg
+
+# =========== Experiment Output ===========
+experiments/output/
+runs/
+logs/
+*.log
+
+# =========== IDE / Editor ===========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========== OS ===========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========== Data (large files) ===========
+# 样本数据已包含在 data/ 中
+# 大实验数据不纳入版本控制
+*.zip
+*.tar.gz
+
+# =========== Misc ===========
+.gradio/
+node_modules/
